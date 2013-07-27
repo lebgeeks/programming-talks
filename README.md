@@ -1,0 +1,1 @@
+This is a static site generator for the LebGeeks Progamming Talks micro-site.

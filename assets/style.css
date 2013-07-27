@@ -1,0 +1,151 @@
+html{
+	background-color: #fbfbfb;
+	color: #4a4a4a;
+}
+body{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	line-height: 1.5;
+	/* border-top: 4px solid #3870b0; */
+}
+.container{
+	width: 630px;
+	margin: 0 auto;
+}
+
+#home .container {
+	margin: 4em auto;
+}
+
+.author-bio{
+	margin: 2em 0;
+}
+a {
+	color: #3870b0;
+	text-decoration: none;
+}
+a:hover{
+	color: #b50000;
+}
+
+h1, h2, #home .subscribe h3{
+	font-family: 'ProximaNovaWeb', 'Proxima Nova', 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+#home .subscribe h3 {
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+h3{
+	margin:0;
+}
+
+.video{
+	display: block;
+	text-align: center;
+}
+
+h1 span{
+	font-weight: normal;
+	margin-left: 0.8em;
+	font-size: 0.9em;
+}
+
+h1 a {
+	color: #333;
+}
+
+h2 span{
+	font-weight: normal;
+	margin-left: 0.5em;
+	font-size: 0.7em;
+	color: #b4b4b4;
+	float: right;
+	line-height: 2.3
+}
+
+.subscribe{
+	margin: 2em 0;
+}
+.subscribe h2{
+	font-weight: normal;
+}
+
+ul{
+	padding-left: 0;
+}
+
+ul a:visited {
+	/* color: #7f38b0; */
+}
+
+@font-face {
+  font-family: 'ProximaNovaWeb';
+  src: url('http://lebgeeks.com/forums/style/imports/fonts/proximanova-reg-webfont.eot');
+  src: url('http://lebgeeks.com/forums/style/imports/fonts/proximanova-reg-webfont.eot?#iefix') format('embedded-opentype'),
+       url('http://lebgeeks.com/forums/style/imports/fonts/proximanova-reg-webfont.woff') format('woff'),
+       url('http://lebgeeks.com/forums/style/imports/fonts/proximanova-reg-webfont.ttf') format('truetype'),
+       url('http://lebgeeks.com/forums/style/imports/fonts/proximanova-reg-webfont.svg#ProximaNovaRegular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNovaWeb';
+	src: url('http://lebgeeks.com/forums/style/imports/fonts/ProximaNova-Bold-webfont.eot');
+	src: url('http://lebgeeks.com/forums/style/imports/fonts/ProximaNova-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('http://lebgeeks.com/forums/style/imports/fonts/ProximaNova-Bold-webfont.woff') format('woff'),
+		 url('http://lebgeeks.com/forums/style/imports/fonts/ProximaNova-Bold-webfont.ttf') format('truetype'),
+		 url('http://lebgeeks.com/forums/style/imports/fonts/ProximaNova-Bold-webfont.svg#ProximaNovaRgBold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+hr {
+	clear: both;
+	border: 0;
+	background: url('hr.png') no-repeat scroll 50% 50%;
+	color: transparent;
+	height: 12px;
+	margin: 4em 0;
+}
+
+.button {
+	display: inline-block;
+	padding: 0.75em;
+	background-color: #3870b0;
+	border-radius: 2px;
+	font-size: 0.9em;
+	color: #fff;
+	font-weight: bold;
+}
+
+.button:hover{
+	background-color: #3f7cc2;
+	color: #efefef;
+}
+
+h1.talk-title{
+	font-weight:normal;
+	text-align:center;
+	margin: 1em 0;
+}
+
+.logo {
+	position: fixed;
+	top: 5px;
+	left: 10px
+}
+
+@media only screen and (max-width: 1000px) {
+	.logo{
+		visibility: hidden;
+	}
+}
+
+.email .submit {
+	margin-left: 0.5em;
+}
+

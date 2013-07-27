@@ -1,0 +1,35 @@
+---
+date: 2013-02-22
+video_size: "small"
+talks:
+  - title: Haskell touched me there
+    slug: haskell-touched-me-there
+    ytid: "VqHDh2It2cs"
+
+  - title: Introduction to Lua
+    slug: intro-to-lua
+    ytid: "oQrZfx7G9yU"
+
+  - title: Building Single Page Apps using node.js and backbone.js
+    slug: single-page-apps-node
+    ytid: "HUyspMSepDM"
+
+  - title: GPU Programming Using CUDA
+    slug: cuda-gpu-programming
+    ytid: "7mFYn5ooY0g"
+
+  - title: Perl 6 gradual typing FTW!
+    slug: perl6-gradual-typing
+    ytid: "7fq7jHg9zXo"
+
+  - title: Simplifying dynamic JavaScript UIs with Knockout.js
+    slug: knockout-js
+    ytid: "2z3Vc8ph6x4"
+
+  - title: Building Large and Scalable Web Applications
+    slug: scalable-web-applications
+    ytid: "AZ08f8vwZ9k"
+
+  - title: Metaprogramming in Ruby
+    slug: ruby-metaprogramming
+    ytid: "bvlrPRyrMJc"

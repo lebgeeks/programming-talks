@@ -1,0 +1,23 @@
+doctype 5
+html
+	head
+		title= talk["title"]
+		link rel="stylesheet" type="text/css" href="assets/normalize.css"
+		link rel="stylesheet" type="text/css" href="assets/style.css"
+		meta name="description" content="#{talk["title"]} by #{talk["author_name"]}"
+		meta property="og:image" content="http://lebgeeks.com/talks/assets/bolt.png"
+	body#talk
+		h1.talk-title= talk["title"]
+		.video
+			iframe width="#{size == 'small' ? 640 : 853}" height="#{size == 'small' ? 360 : 480}" src="http://www.youtube.com/embed/#{talk["ytid"]}?rel=0&amp;showinfo=0&amp;theme=light&amp;vq=large" frameborder="0" allowfullscreen=""
+		.container
+			p.author-bio
+				strong= talk["author_name"]
+				=<talk["author_bio"]
+			h3= "Watch more programming talks in volume #{volume}"
+			ul
+				- siblings.each do |sibling|
+					li
+						a href="#{sibling["slug"]}.html"= sibling["title"]
+			a.button href="http://lebgeeks.com/talks" Browse all talks
+			== render_partial("_subscribe")

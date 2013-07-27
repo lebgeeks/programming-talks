@@ -1,0 +1,24 @@
+doctype 5
+html
+	head
+		title Programming Talks by LebGeeks
+		link rel="stylesheet" type="text/css" href="assets/normalize.css"
+		link rel="stylesheet" type="text/css" href="assets/style.css"
+		meta name="description" content="Short talks by programmers in Beirut, Lebanon"
+		meta property="og:image" content="http://lebgeeks.com/talks/assets/bolt.png"
+	body#home
+		.container
+			h1
+				a href="http://lebgeeks.com" LebGeeks
+				span Programming Talks
+			p Short talks by programmers in Beirut, Lebanon. We provide a friendly environment for developers to practice their public speaking skills. Coders from all levels are welcome.
+			
+			- volumes.each do |volume|
+				h2
+					= "Volume #{volume["id"]}"
+					span= volume["date"].strftime('%B %Y')
+				ul
+					- volume["talks"].each do |talk|
+						li
+							a href="#{talk["slug"]}.html"= talk["title"]
+			== render_partial("_subscribe")

@@ -1,0 +1,44 @@
+---
+date: 2013-06-21
+talks:
+  - title: "Introduction to Lisp and Condition Handling"
+    slug: "intro-to-lisp-condition-handling"
+    ytid: "oA2ODXWeUKE"
+    author_name: "Mackram Raydan"
+    author_bio: "is the director of the Seeqnce startup accelerator program. He also runs a software consultancy called Imagimate, and has previously worked as a project manager at Procter & Gamble."
+
+  - title: "Build a media player using Raspberry Pi, node.js and Socket.IO"
+    slug: "raspberry-pi-media-player"
+    ytid: "ErF_hCs4Grc"
+    author_name: "Donald Derek Haddad"
+    author_bio: "is an application developer at T3 ME magazine. He won the ArabNet Developer tournament in 2013. He is the coder behind RaspberryPi TV, an open-source media center application for the RPi."
+
+  - title: "RESTFul API Design"
+    slug: "restful-api-design"
+    ytid: "jqQODmT4XT0"
+    author_name: "Bassem Dghaidy"
+    author_bio: "is a full stack developer. He previously worked at Cleartag as a systems architect. He is now a freelancer, while working on a hardware startup. Bassem is a board member at the Lamba Labs hackerspace."
+
+  - title: "A Coder's Look at Responsive Web Design"
+    slug: "responsive-web-design"
+    ytid: "wbKMNurh5z0"
+    author_name: "Salim Batlouni"
+    author_bio: "is a UX Designer at Anghami, a music streaming startup. He holds a master's degree in Human–Computer Interaction from Carnegie Mellon University. He enjoys staging beautiful user experiences and conducting user research."
+
+  - title: "Fear of Programming"
+    slug: "fear-of-programming"
+    ytid: "gIguhF8dHg8"
+    author_name: "Oday Maleh"
+    author_bio: "is a mobile app developer at HIC Media. He is the founder of Linux Hive, an initiative that aims to spread awareness about GNU/Linux in Lebanon. He holds a BS in Computer Science from AUST."
+
+  - title: "Dynamic Programming"
+    slug: "dynamic-programming"
+    ytid: "9qoTGYl-SZg"
+    author_name: "Rene Adaimi"
+    author_bio: "is an Electrical and Computer Engineering student at AUB. In 2011, he won the Google Computer Science for Highschool competition in Lebanon."
+
+  - title: "Procedural Audio and Graphics"
+    slug: "procedural-audio-graphics"
+    ytid: "6dggRATF4xI"
+    author_name: "Mohammad Skafi"
+    author_bio: "is a software developer at Napkin, a mobile app lication development company. He previously worked as a flash developer for Born Interactive and Cleartag in Lebanon. He holds a BSc in Mechatronics Engineering from the Hariri Canadian University."
