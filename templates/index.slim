@@ -14,7 +14,7 @@ html
 			p Short talks by programmers in Beirut, Lebanon. We provide a friendly environment for developers to practice their public speaking skills. Coders from all levels are welcome.
 			
 			- volumes.each do |volume|
-				h2
+				h2 id="v#{volume["id"]}"
 					= "Volume #{volume["id"]}"
 					span= volume["date"].strftime('%B %Y')
 				ul
