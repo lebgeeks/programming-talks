@@ -9,6 +9,8 @@ talks:
   - title: Introduction to Lua
     slug: intro-to-lua
     ytid: "oQrZfx7G9yU"
+    author_name: "Joe H. Rahme"
+    author_bio: "is a Cloud Engineer at eNovance where he works on improving the way we host data online. He's part of the moderation team on LebGeeks."
 
   - title: Building Single Page Apps using node.js and backbone.js
     slug: single-page-apps-node
