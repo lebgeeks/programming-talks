@@ -149,3 +149,14 @@ h1.talk-title{
 	margin-left: 0.5em;
 }
 
+.seperator{
+	color: #8c8c8c;
+	text-shadow: 0 0 2px #ccc;
+	font: 3em/1 "Arial Unicode MS", FreeSerif, OpenSymbol, "DejaVu Sans", sans-serif;
+	text-align: center
+}
+
+.seperator:after{
+	content: "\2767";
+}
+
