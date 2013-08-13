@@ -15,7 +15,7 @@ volumes = (Dir.glob "*.yaml").map do |filename|
 	volume
 end
 
-volumes.reverse_each do |volume|
+volumes.each do |volume|
 	volume["talks"].each do |talk|
 		siblings = volume["talks"] - [talk]
 		content = Slim::Template.new("#{BASE_PATH}/templates/talk.slim", {:pretty => true}).render(Object.new, talk: talk, volume: volume["id"], siblings: siblings, size: volume["video_size"])
@@ -24,7 +24,7 @@ volumes.reverse_each do |volume|
 end
 
 # Generate index file
-content = Slim::Template.new("#{BASE_PATH}/templates/index.slim").render(Object.new, volumes: volumes)
+content = Slim::Template.new("#{BASE_PATH}/templates/index.slim").render(Object.new, volumes: volumes.reverse)
 File.open("#{BASE_PATH}/output/index.html", "w") { |file| file.write(content) }
 
 # Copy assets -- TODO: minify stylesheets
