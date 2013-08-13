@@ -15,7 +15,7 @@ volumes = (Dir.glob "*.yaml").map do |filename|
 	volume
 end
 
-volumes.each do |volume|
+volumes.reverse_each do |volume|
 	volume["talks"].each do |talk|
 		siblings = volume["talks"] - [talk]
 		content = Slim::Template.new("#{BASE_PATH}/templates/talk.slim", {:pretty => true}).render(Object.new, talk: talk, volume: volume["id"], siblings: siblings, size: volume["video_size"])
