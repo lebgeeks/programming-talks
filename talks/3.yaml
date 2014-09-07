@@ -2,10 +2,10 @@
 date: 2013-12-27
 talks:
   - title: "The Culture, Technology, Art, Design and Politics of Programming Languages"
-  slug: "programming-languages"
+    slug: "programming-languages"
     ytid: "VuuznaIus9k"
     author_name: "Ramsey Nasser"
-    author_bio: "is a software engineer, designer, educator, and former Eyebeam fellow. He the created qlb, an Arabic LISP dialect. He holds an M.F.A. in Design and Technology from Parsons The New School for Design."
+    author_bio: "is a software engineer, designer, educator, and former Eyebeam fellow. He created qlb, an Arabic LISP dialect. He holds an M.F.A. in Design and Technology from Parsons The New School for Design."
 
   - title: "Teamwork in Software"
     slug: "software-teamwork"
@@ -20,19 +20,19 @@ talks:
     author_bio: "is the CTO and co-founder of Referd."
 
   - title: "No Excuses: Start Coding"
-   slug: "start-coding"
+    slug: "start-coding"
     ytid: "g7yvMqeFqdQ"
     author_name: "Marc Hayek"
-    author_bio: "Is a developer at Et3arraf. He holds a BE in Computer and Communications Engineering from AUB."
+    author_bio: "is a developer at Et3arraf. He holds a BE in Computer and Communications Engineering from AUB."
 
   - title: "A Quick Introduction to BDD in Ruby"
     slug: "bdd-ruby"
     ytid: "C94aoeswkVY"
     author_name: "Youssef Chaker"
-    author_bio: "Is a lead developer at Keeward. He holds a degree in computer engineering from the University of Virginia and previously co-founded Jogabo, startup that makes it easy to organize soccer games."
+    author_bio: "is a lead developer at Keeward. He holds a degree in computer engineering from the University of Virginia and previously co-founded Jogabo, a startup that makes it easy to organize soccer games."
 
   - title: "Infinite Data Structures"
-    slug: "dynamic-programming"
+    slug: "infinite-data-structures"
     ytid: "UWfwxES-Jkw"
     author_name: "Marc Farra"
     author_bio: "is a computer engineer interested in data, code and electronics. He co-founded the Lamba Labs hackerspace in Beirut."
@@ -41,10 +41,10 @@ talks:
     slug: "facebook-immune-system"
     ytid: "XyIirujKwXY"
     author_name: "Ziad Traboulsi"
-    author_bio: "Is a mobile infrastructure engineer at Facebook. He holds an MSc in Social Psychology from the London School of Economics."
+    author_bio: "is a mobile infrastructure engineer at Facebook. He holds an MSc in Social Psychology from the London School of Economics."
 
   - title: "How I found e to 5,083,139 digits"
     slug: "calculating-e"
     ytid: "sYdOis9h2gk"
     author_name: "George E. Zakhour"
-    author_bio: "Is the president of the Free Software club at AUB, where he is currently studying computer science."
+    author_bio: "is the president of the Free Software club at AUB, where he is currently studying computer science."
